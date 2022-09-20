@@ -20,4 +20,4 @@ def load_dataframe() -> pd.DataFrame:
 
 train_df = load_dataframe()
 
-train_df.
+train_df.to_csv('data.csv')
