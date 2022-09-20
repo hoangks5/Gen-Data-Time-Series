@@ -1,5 +1,6 @@
 # Load and preview dataset
 import datetime
+from pickle import load
 import pandas as pd
 import numpy as np
 
@@ -18,3 +19,5 @@ def load_dataframe() -> pd.DataFrame:
 
 train_df = load_dataframe()
 print(train_df)
+loa
+
