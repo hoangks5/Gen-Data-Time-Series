@@ -11,7 +11,7 @@ year = 365.2425 * day
 
 def load_dataframe() -> pd.DataFrame:
     """ Create a time series x sin wave dataframe. """
-    df = pd.DataFrame(columns=['date', 'sin'])
+    df = pd.DataFrame(columns=['date', 'cos'])
     df.date = pd.date_range(start='2018-01-01', end='2021-03-01', freq='D')
     df.sin = 1 + np.sin(df.date.astype('int64') // 1e9 * (2 * np.pi / year))
     df.sin = (df.sin * 100).round(2)
