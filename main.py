@@ -20,5 +20,4 @@ def load_dataframe() -> pd.DataFrame:
 
 train_df = load_dataframe()
 
-plt.plot(train_df['date'],train_df['sin'])
-plt.show()
+print(train_df)
