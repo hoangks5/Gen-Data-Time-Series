@@ -3,7 +3,7 @@ import datetime
 from pickle import load
 import pandas as pd
 import numpy as np
-import matplotlib
+import matplotlib.pyplot
 
 day = 24 * 60 * 60
 year = 365.2425 * day
