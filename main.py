@@ -3,7 +3,7 @@ import datetime
 from pickle import load
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot
+import matplotlib.pyplot as plt
 
 day = 24 * 60 * 60
 year = 365.2425 * day
@@ -19,4 +19,4 @@ def load_dataframe() -> pd.DataFrame:
     return df
 
 train_df = load_dataframe()
-print(train_df)
+
