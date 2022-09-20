@@ -18,5 +18,4 @@ def load_dataframe() -> pd.DataFrame:
     return df
 
 train_df = load_dataframe()
-
-
+print(load_dataframe)
