@@ -20,4 +20,3 @@ def load_dataframe() -> pd.DataFrame:
 train_df = load_dataframe()
 
 
-
