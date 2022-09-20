@@ -18,6 +18,6 @@ def load_dataframe() -> pd.DataFrame:
     return df
 
 train_df = load_dataframe()
-print(train_df)
+
 
 
